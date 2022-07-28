@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.home{   
+    width: 100vw;
+    height: 70vh;
+    background-image: url('../Assets/GallaryHome.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.a{
+    color: white;
+    width: 10vw;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-end !important;
+}
+.nav ul{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+.gallary{
+    background-color: black;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sec1{
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.sec2{
+    width: 33.33%;
+   
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.para{
+    margin-left: 170px;
+}
+
+.footerDiv{
+    display: flex;
+    width: 100%;
+    background-color: rgb(114, 109, 109);
+}
+
+.footerLogo{
+    display: flex;
+    height: 40vh;
+    width: 50%;  
+    color: #fff;
+    justify-content: center ;
+    align-items: center ;
+   
+}
+
+
+.footerSec{
+    display: flex;
+    
+    color: #fff;
+    width: 60vw;
+    justify-content: space-evenly;
+    
+   
+}
+
+
